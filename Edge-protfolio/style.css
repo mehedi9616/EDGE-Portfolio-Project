@@ -1,0 +1,220 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+  }
+  nav li {
+    list-style: none;
+  }
+  header {
+    background: #fff8f3;
+    background-image: url("EDGE-Portfolio/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+  }
+  .r {
+    color: var(--Dark-01, #181818);
+  
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .r span {
+    color: orangered;
+  }
+  .btn-primary {
+    padding: 18px 36px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    background: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 230px;
+  }
+  .navbar nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  /* End of navbar and stuffs */
+  
+  /* starting the styles for banner part */
+  
+  .banner {
+    display: flex;
+    padding-left: 230px;
+  }
+  .banner img {
+    width: 584px;
+    height: 676px;
+    margin-top: 50px;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .banner-greeting {
+    color: var(--Dark-02, #474747);
+    margin-top: 185px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .banner-title {
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .banner-desc {
+    color: var(--Dark-03, #757575);
+  
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    max-width: 585px;
+  }
+  .btn-dw {
+    height: 64px;
+    width: 160px;
+    border-radius: 10px;
+    border: 0px;
+    background: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  .btn-contact {
+    height: 64px;
+    width: 140px;
+    border: 1px solid #fd6e0a;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+  
+    color: #fd6e0a;
+  }
+  .about-me {
+    background: #f3e7de;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 120px 300px 40px 40px;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 40px;
+  }
+  .what-ido {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+  }
+  .skills {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: 40px;
+  }
+  .box1 {
+    border-radius: 5px;
+    background: rgb(237, 234, 234);
+  
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+  }
+  .box2 {
+    border-radius: 5px;
+    background: rgb(237, 234, 234);
+  
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+  }
+  .box3 {
+    border-radius: 5px;
+    background: rgb(237, 234, 234);
+    padding: 40px;
+  
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
+  .box4 {
+    border-radius: 5px;
+    background: rgb(237, 234, 234);
+    padding: 40px;
+  
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
+  
+  /*  summary of resume css styles */
+  .resume-section {
+    margin-top: 50px;
+  }
+  
+  .resume-heading {
+    text-align: center;
+  }
+  
+  .my-education-title {
+    font-weight: bold;
+  }
+  
+  .education-experience {
+    display: flex;
+    column-gap: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .resume-section .download-Cv-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-fields,
+  input {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border: 0px;
+  }
+  .input-fields,
+  textarea {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border: 0px;
+  }
+  .input-fields,
+  button {
+    width: 30%;
+  }
+  .connect-me-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 60px 60px 60px 60px;
+    margin-top: 80px;
+  }
